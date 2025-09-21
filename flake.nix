@@ -8,12 +8,12 @@
     };
     networking-config = {
       # Update this path
-      url = "path:/home/jack/dev/nix-pi-base/config/networking.toml";
+      url = "path:/home/jack/dev/basalt-nix/config/networking.toml";
       flake = false;
     };
     user-config = {
       # Update this path
-      url = "path:/home/jack/dev/nix-pi-base/config/users.toml";
+      url = "path:/home/jack/dev/basalt-nix/config/users.toml";
       flake = false;
     };
   };
@@ -24,6 +24,7 @@
       system = {
         imports = [
           ./ap.nix
+          ./basalt.nix
           ./networking.nix
           ./users.nix
           ./security.nix

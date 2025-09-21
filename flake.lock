@@ -3,13 +3,13 @@
     "networking-config": {
       "flake": false,
       "locked": {
-        "lastModified": 1758391276,
-        "narHash": "sha256-/HepSBZaiQ4tQX8g5CjzDxqPyVAwEbOUNda+wJ+aZVU=",
-        "path": "/home/jack/dev/nix-pi-base/config/networking.toml",
+        "lastModified": 1758443478,
+        "narHash": "sha256-THRyaHxi8mzkXbXn5TJQalZuju+eGbE1hIEOU3zYiaE=",
+        "path": "/home/jack/dev/basalt-nix/config/networking.toml",
         "type": "path"
       },
       "original": {
-        "path": "/home/jack/dev/nix-pi-base/config/networking.toml",
+        "path": "/home/jack/dev/basalt-nix/config/networking.toml",
         "type": "path"
       }
     },
@@ -75,13 +75,13 @@
     "user-config": {
       "flake": false,
       "locked": {
-        "lastModified": 1758227222,
-        "narHash": "sha256-68r3jPakNq5RNrvNjWFLtcI11LyAareu4JwdCr3H76w=",
-        "path": "/home/jack/dev/nix-pi-base/config/users.toml",
+        "lastModified": 1758443337,
+        "narHash": "sha256-AUVbIFJNhN9p/vwTIUhQIYuiRAMnYuVbCDjii/hSVP4=",
+        "path": "/home/jack/dev/basalt-nix/config/users.toml",
         "type": "path"
       },
       "original": {
-        "path": "/home/jack/dev/nix-pi-base/config/users.toml",
+        "path": "/home/jack/dev/basalt-nix/config/users.toml",
         "type": "path"
       }
     }

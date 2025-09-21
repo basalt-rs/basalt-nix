@@ -31,7 +31,7 @@ update-config:
 	unzstd result/sd-image/nixos-image-sd-card-*-aarch64-linux.img.zst -o ${OUTDIR}/${ARTIFACT_NAME}
 
 build: update-config
-	nix build --impure .#packages.aarch64-linux.sdcard --system aarch64-linux
+	nix build -v --impure .#packages.aarch64-linux.sdcard --system aarch64-linux --show-trace
 
 safe-eject: .guard-DEVICE
 	sync
